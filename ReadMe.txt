@@ -5,7 +5,8 @@
 ██████╦╝╚█████╔╝╚█████╔╝   ██║      ██╗        ██║
 ╚═════╝  ╚════╝  ╚════╝    ╚═╝ ██   ╚═╝        ╚═╝ 
 
-Firstly Extract this to ur desktop then
+Firstly Download this file and Extract 
+      this to ur desktop then
 Open 'Install.bat' and let everything install 
 
 make sure you got python3 downloaded
