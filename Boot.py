@@ -23,8 +23,8 @@ banner=Fore.MAGENTA+'''
 ██████╦╝╚█████╔╝╚█████╔╝   ██║      ██╗        ██║
 ╚═════╝  ╚════╝  ╚════╝    ╚═╝ ██   ╚═╝        ╚═╝   
 
-               Author: r00t#6269  
-	        Needed: python3                
+	    Needed: python3  
+	     Author: r00t                
 '''+Fore.RESET
 uname=system()
 if uname=="Windows":
