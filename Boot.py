@@ -45,8 +45,6 @@ def chech_con():
 		print(Fore.MAGENTA+'Lost connection.'+Fore.RESET)
 		exit()
 try:
-	print(Fore.MAGENTA+"Checking for connection."+Fore.RESET)
-	time.sleep(2)
 	chech_con()
 	os.system(cmd)
 except KeyboardInterrupt:
