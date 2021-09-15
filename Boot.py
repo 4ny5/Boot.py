@@ -1,11 +1,8 @@
-from ensurepip import version
 from platform import system
 import os
 import time
 import random
 import socket
-from tracemalloc import stop
-from turtle import clear
 from urllib import request
 import sys
 path=os.getcwd()
@@ -13,7 +10,6 @@ path=os.path.join(path,'lib')
 sys.path.append(path)
 import colorama
 from colorama import Fore,Back
-from tqdm.auto import tqdm
 colorama.init()
 banner=Fore.MAGENTA+'''
 ██████╗  █████╗  █████╗ ████████╗   ██████╗ ██╗   ██╗
