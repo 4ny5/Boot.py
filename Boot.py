@@ -23,8 +23,8 @@ banner=Fore.MAGENTA+'''
 ██████╦╝╚█████╔╝╚█████╔╝   ██║      ██╗        ██║
 ╚═════╝  ╚════╝  ╚════╝    ╚═╝ ██   ╚═╝        ╚═╝   
 
-               Author: r00t#6269  
-	        Needed: python3                
+	    Needed: python3  
+	     Author: r00t                
 '''+Fore.RESET
 uname=system()
 if uname=="Windows":
@@ -45,8 +45,6 @@ def chech_con():
 		print(Fore.MAGENTA+'Lost connection.'+Fore.RESET)
 		exit()
 try:
-	print(Fore.MAGENTA+"Checking for connection."+Fore.RESET)
-	time.sleep(2)
 	chech_con()
 	os.system(cmd)
 except KeyboardInterrupt:
