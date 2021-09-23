@@ -14,3 +14,7 @@ https://www.python.org/downloads/
 
 then after its finished downloading 
 open 'Start.bat' then you are ready!
+
+Infomation:
+Slow DDos Attack
+slow but strong.
