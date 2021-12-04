@@ -73,7 +73,7 @@ try:
 	os.system(cmd)
 	sent = 0
 except Exception as e:
-	print(Fore.RED+"Something went wrong!")
+	print(Fore.RED+"Awww crap something went wrong.")
 	print("Reason:",e,Fore.RESET)
 	exit()
 try:
