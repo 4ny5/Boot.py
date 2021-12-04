@@ -63,7 +63,7 @@ try:
 			exit()
 		elif opt=='4':
 			time.sleep(1)
-			print(Fore.RED+"See you later Come Back soon!"+Fore.RESET)
+			print(Fore.RED+"Aww sad to see you go, Come back soon!"+Fore.RESET)
 			exit()
 		else:
 			print(Fore.RED+'Error!'+Fore.RESET)
