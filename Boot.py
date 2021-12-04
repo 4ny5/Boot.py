@@ -23,7 +23,7 @@ banner=Fore.MAGENTA+'''
 	     Author: r00t                
 '''+Fore.RESET
 uname=system()
-if uname=="Windows":
+if uname== "Windows":
 	cmd='cls'
 else :
 	cmd='clear'
@@ -59,7 +59,7 @@ try:
 			ip = input(Fore.WHITE+"IP: "+Fore.RESET)
 			break
 		elif opt=='3':
-			print(Fore.WHITE+"Message me via discord r00t#6269"+Fore.RESET)
+			print(Fore.WHITE+"Message me via discord ко#0898"+Fore.RESET)
 			exit()
 		elif opt=='4':
 			time.sleep(1)
