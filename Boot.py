@@ -66,7 +66,7 @@ try:
 			print(Fore.RED+"Aww sad to see you go, Come back soon!"+Fore.RESET)
 			exit()
 		else:
-			print(Fore.RED+'Aww shit now thats an error!'+Fore.RESET)
+			print(Fore.RED+'Aww shit now thats an!'+Fore.RESET)
 			time.sleep(2)
 			os.system(cmd)
 	port =int(input(Fore.WHITE+"Default Port 80: "+Fore.RESET))
