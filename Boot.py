@@ -81,7 +81,7 @@ try:
 		sock.sendto(bytes, (ip,port))
 		sent=sent+1
 		port=port+1
-		print(Fore.WHITE+ "%s packets to %s" % (sent, ip))
+		print(Fore.MAGENTA + "%s packets to %s" % (sent, ip))
 		if port==65534:
 			port=1
 		elif port==1900:
