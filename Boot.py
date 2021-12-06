@@ -50,7 +50,7 @@ except KeyboardInterrupt:
 try:
 	while True:
 		print(banner)
-		print(Fore.MAGENTA+"1. Website\n2. IP\n3. Help\n4. Quit"+Fore.RESET)
+		print(Fore.WHITE+"1. Website\n2. IP\n3. Help\n4. Quit"+Fore.RESET)
 		opt=str(input(Fore.MAGENTA+"\nChoose: "+Fore.RESET))
 		if opt=='1':
 			domain=str(input(Fore.WHITE+"Your Choice: "+Fore.RESET))
@@ -61,7 +61,7 @@ try:
 			break
 		elif opt=='3':
 			print(
-				Fore.RED+'''
+				Fore.WHITE+'''
 ██████╗░██████╗░███████╗░██████╗░██████╗  ░█████╗░████████╗██████╗░██╗░░░░░  ░░░░░░░  ░█████╗░
 ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝  ██╔══██╗╚══██╔══╝██╔══██╗██║░░░░░  ░░██╗░░  ██╔══██╗
 ██████╔╝██████╔╝█████╗░░╚█████╗░╚█████╗░  ██║░░╚═╝░░░██║░░░██████╔╝██║░░░░░  ██████╗  ██║░░╚═╝
@@ -114,7 +114,7 @@ except Exception as e:
 	print(Fore.RED+"Awww Darn it! We ran into an Error.\nReason: ",e,Fore.RESET)
 except KeyboardInterrupt:
   print(
-	  Fore.RED+'''
+	  Fore.WHITE+'''
 	  \n
 ██╗░░░██╗░█████╗░██╗░░░██╗██╗██╗░░░██╗███████╗  ░██████╗████████╗░█████╗░██████╗░██████╗░███████╗██████╗░
 ╚██╗░██╔╝██╔══██╗██║░░░██║╚█║██║░░░██║██╔════╝  ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
