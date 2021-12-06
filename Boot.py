@@ -51,7 +51,7 @@ try:
 	while True:
 		print(banner)
 		print(Fore.WHITE+"1. Website\n2. IP\n3. Help\n4. Quit"+Fore.RESET)
-		opt=str(input(Fore.MAGENTA+"\nChoose: "+Fore.RESET))
+		opt=str(input(Fore.WHITE+"\nChoose: "+Fore.RESET))
 		if opt=='1':
 			domain=str(input(Fore.WHITE+"Your Choice: "+Fore.RESET))
 			ip=socket.gethostbyname(domain)
