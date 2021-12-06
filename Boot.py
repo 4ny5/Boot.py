@@ -114,7 +114,7 @@ except Exception as e:
 	print(Fore.RED+"Awww Darn it! We ran into an Error.\nReason: ",e,Fore.RESET)
 except KeyboardInterrupt:
   print(
-	  Fore.WHITE+'''
+	  Fore.RED+'''
 	  \n
 ██╗░░░██╗░█████╗░██╗░░░██╗██╗██╗░░░██╗███████╗  ░██████╗████████╗░█████╗░██████╗░██████╗░███████╗██████╗░
 ╚██╗░██╔╝██╔══██╗██║░░░██║╚█║██║░░░██║██╔════╝  ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
