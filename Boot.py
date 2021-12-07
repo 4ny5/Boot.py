@@ -3,7 +3,6 @@ import os
 import time
 import random
 import socket
-import getpass
 from urllib import request
 import sys
 path=os.getcwd()
